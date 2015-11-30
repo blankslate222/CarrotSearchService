@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/attributes-binder-1.2.3.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/carrot2-core-3.11.0.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/carrot2-guava-18.0.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/hppc-0.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/jackson-annotations-2.5.3.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/jackson-core-2.5.3.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/jackson-databind-2.5.3.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/lucene-analyzers-common-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/lucene-analyzers-smartcn-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/simple-xml-2.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/required/slf4j-log4j12-1.7.12.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/attributes-processor-1.2.3.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/jcl-over-slf4j-1.7.12.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-backward-codecs-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-core-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-highlighter-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-join-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-memory-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-queries-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-queryparser-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/lucene-sandbox-5.3.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/morfologik-fsa-2.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/morfologik-polish-2.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/morfologik-stemming-2.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/rome-1.0.0.jar"/>
+	<classpathentry kind="lib" path="G:/Nikhil/MS/MS_SEM3/239/carrot/carrot2-java-api-3.11.0/lib/optional/rome-fetcher-1.0.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
