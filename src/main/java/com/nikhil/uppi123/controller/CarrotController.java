@@ -2,6 +2,7 @@ package com.nikhil.uppi123.controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.carrot2.core.Cluster;
@@ -22,9 +23,20 @@ import com.nikhil.uppi123.service.CarrotService;
 import com.nikhil.uppi123.service.DocumentService;
 import com.nikhil.uppi123.service.WebhoseService;
 
+/**
+ * 
+ * @author Uppi123
+ * Date: 30 - Nov - 2015
+ * CMPE 239 - Web And Data Mining
+ * San Jose State University
+ * 
+ */
 @Controller
 public class CarrotController {
-
+	/*
+	 * Spring MVC web controller which handles the 
+	 * web service requests and responses
+	 */
 	@Autowired
 	private CarrotService carService;
 	@Autowired
@@ -51,7 +63,7 @@ public class CarrotController {
 
 			List<ResponseObject> resp = getResponse(clusterList);
 			for (ResponseObject re : resp) {
-				
+
 			}
 			response = new ResponseEntity<List<ResponseObject>>(resp,
 					HttpStatus.OK);
@@ -74,16 +86,29 @@ public class CarrotController {
 			obj.setClusterLabel(c.getLabel());
 			List<Document> docs = c.getDocuments();
 			
-			for (Document doc : docs) {
-				news = new NewsArticle();
-				news.setTitle(doc.getTitle());
-				news.setUrl(doc.getContentUrl());
-				obj.addResult(news);
-			}
+			// map is used here to remove redundant results
 			
+			HashMap<String, NewsArticle> map = new HashMap<String, NewsArticle>();
+
+			for (Document doc : docs) {
+				if (doc.getContentUrl() == null
+						|| "".equals(doc.getContentUrl().trim())
+						|| "".equals(doc.getTitle().trim()) || doc == null) {
+					continue;
+				}
+				news = new NewsArticle();
+				news.setTitle(doc.getTitle().trim());
+				news.setUrl(doc.getContentUrl().trim());
+				map.put(news.getUrl().trim(), news);
+				// obj.addResult(news);
+			}
+
+			for (NewsArticle article : map.values()) {
+				obj.addResult(article);
+			}
 			response.add(obj);
 		}
-		
+
 		return response;
 	}
 }

@@ -3,8 +3,20 @@ package com.nikhil.uppi123.bean;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ResponseObject {
+/**
+ * 
+ * @author Uppi123
+ * Date: 30 - Nov - 2015
+ * CMPE 239 - Web And Data Mining
+ * San Jose State University
+ * 
+ */
 
+public class ResponseObject {
+	/*
+	 * Controller's response object POJO - sent as JSON 
+	 * in HTTP response body
+	 */
 	private String clusterLabel;
 	private List<NewsArticle> results = new ArrayList<NewsArticle>();
 

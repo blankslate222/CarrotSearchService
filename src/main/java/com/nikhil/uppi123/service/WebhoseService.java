@@ -11,9 +11,22 @@ import com.buzzilla.webhose.client.WebhoseQuery;
 import com.buzzilla.webhose.client.WebhoseQuery.SiteType;
 import com.buzzilla.webhose.client.WebhoseResponse;
 
+/**
+ * 
+ * @author Uppi123
+ * Date: 30 - Nov - 2015
+ * CMPE 239 - Web And Data Mining
+ * San Jose State University
+ * 
+ */
+
 @Service
 public class WebhoseService {
-	
+	/*
+	 * Service class - uses webhose java sdk to
+	 * retrieve search results and returns to the controller
+	 * for further processing
+	 */
 	public List<WebhosePost> getSearchResults(String term, WebhoseClient client)
 			throws IOException {
 		WebhoseResponse resp = null;
